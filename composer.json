@@ -1,0 +1,33 @@
+{
+    "name": "apsonex/laravel-dusk-screenrecordings",
+    "description": "A package to have screen recordings of Dusk tests",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apsonex\\LaravelDuskScreenrecordings\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gurinder Chauhan",
+            "email": "dev@apsonex.com",
+            "homepage": "https://apsonex.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "illuminate/view": "^8.0|^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Apsonex\\LaravelDuskScreenrecordings\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,13 @@
+const startRecordingEvent = new Event('StartRecording');
+document.dispatchEvent(startRecordingEvent)
+
+const stopRecordingEvent = new Event('StopRecording');
+document.dispatchEvent(stopRecordingEvent);
+
+const downloadRecordingEvent = new Event('DownloadRecording');
+document.dispatchEvent(downloadRecordingEvent);
+
+
+"laravel/dusk": "^6.15",
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/view": "^7.0|^8.0"
